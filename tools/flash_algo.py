@@ -22,7 +22,7 @@ import struct
 import binascii
 import argparse
 import logging
-import StringIO
+from io import StringIO
 import jinja2
 from collections import namedtuple
 from itertools import count
